@@ -78,7 +78,7 @@ int main(int argc, char **argv)
 	 if (choice == 'e')
 	 {
 		moving = true;
-		printf("set a integer K and press enter (idealy 5000) ");
+		printf("set a integer K and press enter (ideally 5000) ");
 		cin >> K;
 		glutDisplayFunc(draw_moving_circles);
 
@@ -144,6 +144,7 @@ void draw_circle(void)
 	int j = r;
 
 	while(i <= r/sqrt(2))
+		//8 points
 
 	{		
 		if (D <= 0)
